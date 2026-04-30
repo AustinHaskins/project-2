@@ -20,7 +20,7 @@ def main():
     result_page = ResultPage()
     window = MainWindow(input_page, result_page)
 
-    AppController(model, window)
+    window.controller = AppController(model, window)
 
     window.show()
     sys.exit(app.exec())
