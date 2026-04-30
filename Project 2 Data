@@ -1,1 +1,958 @@
-
+[
+  {
+    "name": "San Diego",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "beach",
+    "secondary_tags": [
+      "food",
+      "family",
+      "nightlife",
+      "relaxing",
+      "outdoors"
+    ],
+    "description": "A laid-back coastal city with beaches, mild weather, and easy outdoor activities.",
+    "temps_f": {
+      "spring": 62.8,
+      "summer": 70.1,
+      "fall": 67.5,
+      "winter": 58.4
+    }
+  },
+  {
+    "name": "Salt Lake City",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "nature_hiking",
+    "secondary_tags": [
+      "ski_snow",
+      "family",
+      "outdoors",
+      "city_culture"
+    ],
+    "description": "A mountain-framed city that works well for outdoor adventure in every season.",
+    "temps_f": {
+      "spring": 50.4,
+      "summer": 73.2,
+      "fall": 51.1,
+      "winter": 30.7
+    }
+  },
+  {
+    "name": "Honolulu",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "beach",
+    "secondary_tags": [
+      "relaxing",
+      "family",
+      "romantic",
+      "outdoors",
+      "food"
+    ],
+    "description": "A tropical city with beaches, surf culture, and warm weather year-round.",
+    "temps_f": {
+      "spring": 76.8,
+      "summer": 79.2,
+      "fall": 79.0,
+      "winter": 74.8
+    }
+  },
+  {
+    "name": "Maui",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "beach",
+    "secondary_tags": [
+      "relaxing",
+      "romantic",
+      "outdoors",
+      "family"
+    ],
+    "description": "A scenic island escape known for beaches, resorts, and a slower pace.",
+    "temps_f": {
+      "spring": 73.8,
+      "summer": 77.0,
+      "fall": 76.3,
+      "winter": 71.6
+    }
+  },
+  {
+    "name": "Miami",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "beach",
+    "secondary_tags": [
+      "nightlife",
+      "food",
+      "city_culture",
+      "romantic"
+    ],
+    "description": "A lively coastal city with warm weather, nightlife, and a strong beach scene.",
+    "temps_f": {
+      "spring": 76.6,
+      "summer": 82.2,
+      "fall": 79.4,
+      "winter": 70.5
+    }
+  },
+  {
+    "name": "Key West",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "beach",
+    "secondary_tags": [
+      "relaxing",
+      "nightlife",
+      "food",
+      "romantic"
+    ],
+    "description": "A colorful island getaway with a laid-back feel, sunsets, and warm water.",
+    "temps_f": {
+      "spring": 77.7,
+      "summer": 82.2,
+      "fall": 79.9,
+      "winter": 70.9
+    }
+  },
+  {
+    "name": "New Orleans",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "food_nightlife",
+    "secondary_tags": [
+      "city_culture",
+      "music",
+      "history",
+      "adult_focused"
+    ],
+    "description": "A distinctive city famous for music, food, festivals, and nightlife.",
+    "temps_f": {
+      "spring": 69.7,
+      "summer": 82.2,
+      "fall": 71.9,
+      "winter": 53.8
+    }
+  },
+  {
+    "name": "Charleston",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "city_culture",
+    "secondary_tags": [
+      "history",
+      "food",
+      "romantic",
+      "relaxing"
+    ],
+    "description": "A historic Southern city with coastal charm, restaurants, and walkable streets.",
+    "temps_f": {
+      "spring": 64.8,
+      "summer": 80.2,
+      "fall": 67.5,
+      "winter": 50.9
+    }
+  },
+  {
+    "name": "Savannah",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "city_culture",
+    "secondary_tags": [
+      "history",
+      "romantic",
+      "relaxing",
+      "food"
+    ],
+    "description": "A charming historic city known for oak-lined squares and a slower pace.",
+    "temps_f": {
+      "spring": 65.8,
+      "summer": 79.7,
+      "fall": 67.6,
+      "winter": 51.7
+    }
+  },
+  {
+    "name": "New York City",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "city_culture",
+    "secondary_tags": [
+      "food",
+      "nightlife",
+      "shopping",
+      "arts",
+      "family"
+    ],
+    "description": "A dense, high-energy city packed with neighborhoods, museums, food, and entertainment.",
+    "temps_f": {
+      "spring": 53.4,
+      "summer": 74.6,
+      "fall": 56.7,
+      "winter": 35.7
+    }
+  },
+  {
+    "name": "San Francisco",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "city_culture",
+    "secondary_tags": [
+      "food",
+      "outdoors",
+      "tech_vibes",
+      "romantic"
+    ],
+    "description": "A scenic bay city with iconic views, varied neighborhoods, and easy day trips.",
+    "temps_f": {
+      "spring": 55.6,
+      "summer": 60.8,
+      "fall": 60.4,
+      "winter": 52.0
+    }
+  },
+  {
+    "name": "Los Angeles",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "city_culture",
+    "secondary_tags": [
+      "beach",
+      "nightlife",
+      "shopping",
+      "entertainment"
+    ],
+    "description": "A sprawling city known for entertainment, beaches, and neighborhood variety.",
+    "temps_f": {
+      "spring": 61.7,
+      "summer": 69.1,
+      "fall": 66.0,
+      "winter": 55.0
+    }
+  },
+  {
+    "name": "Seattle",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "city_culture",
+    "secondary_tags": [
+      "food",
+      "coffee",
+      "outdoors",
+      "rainy_weather"
+    ],
+    "description": "A waterfront city with strong food culture and quick access to mountains and water.",
+    "temps_f": {
+      "spring": 50.9,
+      "summer": 65.3,
+      "fall": 51.8,
+      "winter": 42.1
+    }
+  },
+  {
+    "name": "Chicago",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "city_culture",
+    "secondary_tags": [
+      "food",
+      "architecture",
+      "arts",
+      "family"
+    ],
+    "description": "A major lakefront city with great food, museums, and striking architecture.",
+    "temps_f": {
+      "spring": 49.1,
+      "summer": 71.2,
+      "fall": 52.0,
+      "winter": 29.7
+    }
+  },
+  {
+    "name": "Nashville",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "food_nightlife",
+    "secondary_tags": [
+      "music",
+      "city_culture",
+      "adult_focused",
+      "weekend_trip"
+    ],
+    "description": "A popular music city with nightlife, live shows, and a strong weekend-trip feel.",
+    "temps_f": {
+      "spring": 60.3,
+      "summer": 77.0,
+      "fall": 59.7,
+      "winter": 41.5
+    }
+  },
+  {
+    "name": "Denver",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "nature_hiking",
+    "secondary_tags": [
+      "city_culture",
+      "beer",
+      "outdoors",
+      "gateway_mountains"
+    ],
+    "description": "A sunny high-altitude city that serves as a gateway to the Rockies.",
+    "temps_f": {
+      "spring": 49.5,
+      "summer": 72.0,
+      "fall": 50.4,
+      "winter": 31.1
+    }
+  },
+  {
+    "name": "Aspen",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "ski_snow",
+    "secondary_tags": [
+      "luxury",
+      "romantic",
+      "nature_hiking",
+      "upscale"
+    ],
+    "description": "An upscale mountain town known for skiing in winter and alpine scenery in summer.",
+    "temps_f": {
+      "spring": 35.8,
+      "summer": 57.6,
+      "fall": 37.8,
+      "winter": 18.5
+    }
+  },
+  {
+    "name": "Jackson Hole",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "nature_hiking",
+    "secondary_tags": [
+      "ski_snow",
+      "wildlife",
+      "adventure",
+      "rustic"
+    ],
+    "description": "A rugged mountain destination with skiing, wildlife, and national park access.",
+    "temps_f": {
+      "spring": 36.9,
+      "summer": 60.8,
+      "fall": 38.8,
+      "winter": 18.3
+    }
+  },
+  {
+    "name": "Lake Tahoe",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "ski_snow",
+    "secondary_tags": [
+      "beach",
+      "nature_hiking",
+      "family",
+      "adventure"
+    ],
+    "description": "A scenic alpine lake destination that works for both snow sports and summer outdoors.",
+    "temps_f": {
+      "spring": 41.5,
+      "summer": 63.7,
+      "fall": 43.2,
+      "winter": 28.2
+    }
+  },
+  {
+    "name": "Scottsdale",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "relaxing",
+    "secondary_tags": [
+      "spa",
+      "golf",
+      "desert",
+      "luxury",
+      "warm_weather"
+    ],
+    "description": "A sunny desert escape popular for resorts, golf, and spa-style vacations.",
+    "temps_f": {
+      "spring": 73.4,
+      "summer": 92.8,
+      "fall": 74.5,
+      "winter": 56.1
+    }
+  },
+  {
+    "name": "Palm Springs",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "relaxing",
+    "secondary_tags": [
+      "desert",
+      "midcentury_design",
+      "pool_scene",
+      "adults"
+    ],
+    "description": "A desert resort city known for pools, sunshine, and retro design style.",
+    "temps_f": {
+      "spring": 76.1,
+      "summer": 93.8,
+      "fall": 77.9,
+      "winter": 57.2
+    }
+  },
+  {
+    "name": "Anchorage",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "nature_hiking",
+    "secondary_tags": [
+      "wildlife",
+      "cool_weather",
+      "adventure",
+      "cruise_gateway"
+    ],
+    "description": "A northern destination with dramatic scenery, wildlife, and easy access to Alaska adventures.",
+    "temps_f": {
+      "spring": 35.1,
+      "summer": 57.6,
+      "fall": 36.9,
+      "winter": 16.9
+    }
+  },
+  {
+    "name": "Whitefish",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "nature_hiking",
+    "secondary_tags": [
+      "ski_snow",
+      "small_town",
+      "family",
+      "adventure"
+    ],
+    "description": "A smaller mountain town with access to skiing and Glacier-area outdoor trips.",
+    "temps_f": {
+      "spring": 41.0,
+      "summer": 61.2,
+      "fall": 44.6,
+      "winter": 23.5
+    }
+  },
+  {
+    "name": "Grand Canyon Area",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "nature_hiking",
+    "secondary_tags": [
+      "scenic",
+      "adventure",
+      "road_trip",
+      "family"
+    ],
+    "description": "A bucket-list desert landscape best for scenic views, hiking, and road trips.",
+    "temps_f": {
+      "spring": 45.9,
+      "summer": 64.9,
+      "fall": 49.5,
+      "winter": 31.3
+    }
+  },
+  {
+    "name": "Portland, Maine",
+    "country": "United States",
+    "is_us": true,
+    "primary_activity": "city_culture",
+    "secondary_tags": [
+      "coastal",
+      "food",
+      "cool_weather",
+      "relaxing"
+    ],
+    "description": "A smaller coastal city with seafood, walkable neighborhoods, and a New England feel.",
+    "temps_f": {
+      "spring": 43.3,
+      "summer": 64.0,
+      "fall": 48.9,
+      "winter": 25.7
+    }
+  },
+  {
+    "name": "Copenhagen",
+    "country": "Denmark",
+    "is_us": false,
+    "primary_activity": "city_culture",
+    "secondary_tags": [
+      "bike_friendly",
+      "food",
+      "design",
+      "cool_weather",
+      "family"
+    ],
+    "description": "A clean, bike-friendly capital with waterfront charm, design culture, and cozy cafes.",
+    "temps_f": {
+      "spring": 47.5,
+      "summer": 62.6,
+      "fall": 49.1,
+      "winter": 34.7
+    }
+  },
+  {
+    "name": "Hamburg",
+    "country": "Germany",
+    "is_us": false,
+    "primary_activity": "city_culture",
+    "secondary_tags": [
+      "port_city",
+      "food",
+      "nightlife",
+      "history"
+    ],
+    "description": "A major port city with canals, museums, and a strong urban nightlife scene.",
+    "temps_f": {
+      "spring": 47.3,
+      "summer": 62.6,
+      "fall": 50.9,
+      "winter": 36.3
+    }
+  },
+  {
+    "name": "Santiago",
+    "country": "Chile",
+    "is_us": false,
+    "primary_activity": "city_culture",
+    "secondary_tags": [
+      "gateway_mountains",
+      "food",
+      "wine",
+      "outdoors"
+    ],
+    "description": "A large capital city framed by mountains, with urban energy and easy scenic escapes.",
+    "temps_f": {
+      "spring": 60.3,
+      "summer": 51.8,
+      "fall": 62.1,
+      "winter": 66.7
+    }
+  },
+  {
+    "name": "Barcelona",
+    "country": "Spain",
+    "is_us": false,
+    "primary_activity": "city_culture",
+    "secondary_tags": [
+      "beach",
+      "food",
+      "nightlife",
+      "architecture"
+    ],
+    "description": "A Mediterranean city that blends beach access with architecture, food, and nightlife.",
+    "temps_f": {
+      "spring": 57.2,
+      "summer": 73.4,
+      "fall": 63.8,
+      "winter": 49.4
+    }
+  },
+  {
+    "name": "Paris",
+    "country": "France",
+    "is_us": false,
+    "primary_activity": "city_culture",
+    "secondary_tags": [
+      "romantic",
+      "food",
+      "arts",
+      "shopping"
+    ],
+    "description": "A classic city destination known for museums, cafes, landmarks, and style.",
+    "temps_f": {
+      "spring": 53.0,
+      "summer": 66.8,
+      "fall": 54.8,
+      "winter": 42.2
+    }
+  },
+  {
+    "name": "Rome",
+    "country": "Italy",
+    "is_us": false,
+    "primary_activity": "city_culture",
+    "secondary_tags": [
+      "history",
+      "food",
+      "romantic",
+      "crowded"
+    ],
+    "description": "A historic capital packed with ancient landmarks, street life, and memorable food.",
+    "temps_f": {
+      "spring": 56.6,
+      "summer": 73.4,
+      "fall": 62.0,
+      "winter": 47.6
+    }
+  },
+  {
+    "name": "Venice",
+    "country": "Italy",
+    "is_us": false,
+    "primary_activity": "romantic",
+    "secondary_tags": [
+      "history",
+      "canals",
+      "scenic",
+      "walking"
+    ],
+    "description": "A unique canal city best known for atmosphere, scenery, and romantic travel.",
+    "temps_f": {
+      "spring": 54.1,
+      "summer": 71.8,
+      "fall": 59.7,
+      "winter": 41.7
+    }
+  },
+  {
+    "name": "Athens",
+    "country": "Greece",
+    "is_us": false,
+    "primary_activity": "city_culture",
+    "secondary_tags": [
+      "history",
+      "food",
+      "warm_weather",
+      "budget_friendly"
+    ],
+    "description": "A historic city with ancient sites, strong food culture, and warm Mediterranean weather.",
+    "temps_f": {
+      "spring": 61.4,
+      "summer": 81.2,
+      "fall": 68.0,
+      "winter": 51.8
+    }
+  },
+  {
+    "name": "Reykjavik",
+    "country": "Iceland",
+    "is_us": false,
+    "primary_activity": "nature_hiking",
+    "secondary_tags": [
+      "cool_weather",
+      "northern_lights",
+      "hot_springs",
+      "road_trip"
+    ],
+    "description": "A small capital that works as a base for geothermal spots, waterfalls, and dramatic landscapes.",
+    "temps_f": {
+      "spring": 40.3,
+      "summer": 52.7,
+      "fall": 43.9,
+      "winter": 35.1
+    }
+  },
+  {
+    "name": "Edinburgh",
+    "country": "Scotland",
+    "is_us": false,
+    "primary_activity": "city_culture",
+    "secondary_tags": [
+      "history",
+      "cool_weather",
+      "festivals",
+      "pubs"
+    ],
+    "description": "A compact historic city with castle views, festivals, and a strong old-world feel.",
+    "temps_f": {
+      "spring": 45.9,
+      "summer": 58.8,
+      "fall": 50.7,
+      "winter": 38.5
+    }
+  },
+  {
+    "name": "Amsterdam",
+    "country": "Netherlands",
+    "is_us": false,
+    "primary_activity": "city_culture",
+    "secondary_tags": [
+      "canals",
+      "bike_friendly",
+      "nightlife",
+      "food"
+    ],
+    "description": "A canal-lined city with a relaxed urban feel, strong culture, and easy walkability.",
+    "temps_f": {
+      "spring": 47.6,
+      "summer": 61.4,
+      "fall": 51.8,
+      "winter": 38.6
+    }
+  },
+  {
+    "name": "Tokyo",
+    "country": "Japan",
+    "is_us": false,
+    "primary_activity": "city_culture",
+    "secondary_tags": [
+      "food",
+      "tech_vibes",
+      "shopping",
+      "nightlife"
+    ],
+    "description": "A huge city with nonstop energy, diverse neighborhoods, and excellent food.",
+    "temps_f": {
+      "spring": 58.3,
+      "summer": 77.9,
+      "fall": 63.7,
+      "winter": 46.4
+    }
+  },
+  {
+    "name": "Kyoto",
+    "country": "Japan",
+    "is_us": false,
+    "primary_activity": "city_culture",
+    "secondary_tags": [
+      "temples",
+      "traditional",
+      "romantic",
+      "calm"
+    ],
+    "description": "A calmer Japanese destination known for temples, gardens, and traditional atmosphere.",
+    "temps_f": {
+      "spring": 56.8,
+      "summer": 78.1,
+      "fall": 61.9,
+      "winter": 43.5
+    }
+  },
+  {
+    "name": "Seoul",
+    "country": "South Korea",
+    "is_us": false,
+    "primary_activity": "city_culture",
+    "secondary_tags": [
+      "food",
+      "nightlife",
+      "shopping",
+      "pop_culture"
+    ],
+    "description": "A fast-paced capital with great food, nightlife, and modern city energy.",
+    "temps_f": {
+      "spring": 54.7,
+      "summer": 77.4,
+      "fall": 57.9,
+      "winter": 30.4
+    }
+  },
+  {
+    "name": "Sydney",
+    "country": "Australia",
+    "is_us": false,
+    "primary_activity": "beach",
+    "secondary_tags": [
+      "city_culture",
+      "outdoors",
+      "harbor",
+      "family"
+    ],
+    "description": "A major harbor city with beaches, outdoor life, and an easygoing coastal feel.",
+    "temps_f": {
+      "spring": 64.0,
+      "summer": 72.7,
+      "fall": 64.9,
+      "winter": 58.3
+    }
+  },
+  {
+    "name": "Queenstown",
+    "country": "New Zealand",
+    "is_us": false,
+    "primary_activity": "nature_hiking",
+    "secondary_tags": [
+      "adventure_sports",
+      "scenic",
+      "ski_snow",
+      "romantic"
+    ],
+    "description": "A scenic mountain-lake destination known for adventure sports and year-round outdoor appeal.",
+    "temps_f": {
+      "spring": 50.5,
+      "summer": 60.8,
+      "fall": 50.0,
+      "winter": 38.1
+    }
+  },
+  {
+    "name": "Cancun",
+    "country": "Mexico",
+    "is_us": false,
+    "primary_activity": "beach",
+    "secondary_tags": [
+      "all_inclusive",
+      "nightlife",
+      "warm_weather",
+      "family"
+    ],
+    "description": "A resort-heavy beach destination popular for warm water, easy planning, and nightlife.",
+    "temps_f": {
+      "spring": 80.3,
+      "summer": 83.9,
+      "fall": 81.2,
+      "winter": 75.2
+    }
+  },
+  {
+    "name": "Cabo San Lucas",
+    "country": "Mexico",
+    "is_us": false,
+    "primary_activity": "beach",
+    "secondary_tags": [
+      "luxury",
+      "nightlife",
+      "desert_coast",
+      "adults"
+    ],
+    "description": "A sunny coastal destination that mixes resort luxury with nightlife and dramatic desert scenery.",
+    "temps_f": {
+      "spring": 74.3,
+      "summer": 84.5,
+      "fall": 80.0,
+      "winter": 68.9
+    }
+  },
+  {
+    "name": "Costa Rica Pacific Coast",
+    "country": "Costa Rica",
+    "is_us": false,
+    "primary_activity": "nature_hiking",
+    "secondary_tags": [
+      "rainforest",
+      "wildlife",
+      "beach",
+      "eco_tourism"
+    ],
+    "description": "A nature-focused tropical destination with beaches, jungle activities, and wildlife.",
+    "temps_f": {
+      "spring": 79.9,
+      "summer": 78.8,
+      "fall": 79.0,
+      "winter": 80.2
+    }
+  },
+  {
+    "name": "Bali",
+    "country": "Indonesia",
+    "is_us": false,
+    "primary_activity": "relaxing",
+    "secondary_tags": [
+      "beach",
+      "spiritual",
+      "yoga",
+      "romantic",
+      "budget_friendly"
+    ],
+    "description": "A tropical island destination known for relaxation, scenery, and wellness-oriented travel.",
+    "temps_f": {
+      "spring": 80.6,
+      "summer": 79.9,
+      "fall": 81.0,
+      "winter": 81.7
+    }
+  },
+  {
+    "name": "Zermatt",
+    "country": "Switzerland",
+    "is_us": false,
+    "primary_activity": "ski_snow",
+    "secondary_tags": [
+      "scenic",
+      "luxury",
+      "romantic",
+      "alpine_village"
+    ],
+    "description": "A car-free alpine village known for iconic mountain views and world-class skiing.",
+    "temps_f": {
+      "spring": 40.1,
+      "summer": 54.7,
+      "fall": 43.3,
+      "winter": 26.4
+    }
+  },
+  {
+    "name": "Niseko",
+    "country": "Japan",
+    "is_us": false,
+    "primary_activity": "ski_snow",
+    "secondary_tags": [
+      "powder",
+      "food",
+      "adventure",
+      "international_favorite"
+    ],
+    "description": "A ski destination famous for powder snow and a strong international winter travel scene.",
+    "temps_f": {
+      "spring": 39.7,
+      "summer": 62.1,
+      "fall": 46.9,
+      "winter": 24.3
+    }
+  },
+  {
+    "name": "Chamonix",
+    "country": "France",
+    "is_us": false,
+    "primary_activity": "ski_snow",
+    "secondary_tags": [
+      "mountaineering",
+      "adventure",
+      "scenic",
+      "alpine_town"
+    ],
+    "description": "A legendary Alpine destination with steep scenery, skiing, and mountaineering culture.",
+    "temps_f": {
+      "spring": 42.4,
+      "summer": 58.3,
+      "fall": 46.9,
+      "winter": 29.5
+    }
+  },
+  {
+    "name": "Banff",
+    "country": "Canada",
+    "is_us": false,
+    "primary_activity": "nature_hiking",
+    "secondary_tags": [
+      "ski_snow",
+      "scenic",
+      "wildlife",
+      "family"
+    ],
+    "description": "A Rocky Mountain destination known for turquoise lakes, wildlife, and year-round outdoor travel.",
+    "temps_f": {
+      "spring": 38.8,
+      "summer": 57.7,
+      "fall": 41.2,
+      "winter": 19.9
+    }
+  },
+  {
+    "name": "Whistler",
+    "country": "Canada",
+    "is_us": false,
+    "primary_activity": "ski_snow",
+    "secondary_tags": [
+      "adventure",
+      "village",
+      "nightlife",
+      "scenic"
+    ],
+    "description": "A major mountain resort with skiing, outdoor activities, and a lively village base.",
+    "temps_f": {
+      "spring": 43.9,
+      "summer": 60.4,
+      "fall": 45.9,
+      "winter": 28.0
+    }
+  }
+]
