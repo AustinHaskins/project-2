@@ -68,13 +68,36 @@ class AppController:
         sec1 = self.input_page.secondary_combo_1.currentText()
         sec2 = self.input_page.secondary_combo_2.currentText()
         return (
-            f"Trip season: {season.title()}"
-            f"Primary activity: {primary_display}"
-            f"Secondary Activity #1: {sec1}"
-            f"Secondary Activity #2: {sec2}"
-            f"Trip region: {region}"
+            f"Trip season: {season.title()}\n"
+            f"Primary activity: {primary_display}\n"
+            f"Secondary Activity #1: {sec1}\n"
+            f"Secondary Activity #2: {sec2}\n"
+            f"Trip region: {region}\n"
             f"Preferred average temperature: {target_temp:.1f}°F"
         )
+
+    def build_result_text(self, best, secondary_values):
+        if best is None:
+            return (
+                "Sorry, but we could not find a matching location from the database.",
+                "Try adjusting your season, temperature, or secondary activity choices and search again."
+            )
+
+        location = best["spot"]
+        secondary_line = "No secondary matches affected this result."
+        if secondary_values:
+            secondary_line = (
+                f"Matched {best['secondary_matches']} of {len(secondary_values)} "
+                f"selected secondary activities."
+            )
+
+        location_text = f"{location['name']}, {location['country']}"
+        description_text = (location.get("description", "No description available.")
+                + f"\n\nResult details: {secondary_line} "
+                  f"Temperature difference: {best['temp_diff']:.1f}°F. "
+                  f"Matched seasonal temperature: {best['matched_temp']:.1f}°F."
+        )
+        return location_text, description_text
 
     def build_result_text(self, best, secondary_values):
         if best is None:
