@@ -1,5 +1,4 @@
 from PyQt6.QtCore import QPoint, Qt
-from PyQt6.QtGui import QFont
 from PyQt6.QtWidgets import (
     QButtonGroup,
     QComboBox,
@@ -35,21 +34,14 @@ class InputPage(QWidget):
         root.setContentsMargins(24, 18, 24, 18)
         root.setSpacing(14)
 
-        title = QLabel("Vacation Spot Finder")
-        title_font = QFont()
-        title_font.setPointSize(22)
-        title_font.setBold(True)
-        title.setFont(title_font)
-        title.setAlignment(Qt.AlignmentFlag.AlignCenter)
-
         subtitle = QLabel(
+            "Vacation Spot Finder\n"
             "Please fill out the inputs so we can find the best match for your trip."
         )
         subtitle.setWordWrap(True)
         subtitle.setAlignment(Qt.AlignmentFlag.AlignCenter)
         subtitle.setObjectName("subtitle")
 
-        root.addWidget(title)
         root.addWidget(subtitle)
 
         card = QFrame()
@@ -137,8 +129,13 @@ class InputPage(QWidget):
         button_row = QHBoxLayout()
         button_row.addStretch()
         self.continue_button = QPushButton("Find a Location!")
+        self.continue_button.setFixedWidth(220)
+
+        button_row = QHBoxLayout()
+        button_row.addStretch()
         button_row.addWidget(self.continue_button)
         button_row.addStretch()
+
         form_layout.addLayout(button_row, 6, 0, 1, 2)
 
         root.addWidget(card, stretch=1)
@@ -202,7 +199,7 @@ class InputPage(QWidget):
                 border-radius: 18px;
             }
             QLabel#subtitle {
-                color: #5b6675;
+                color: white;
                 font-size: 15px;
             }
             QGroupBox#pillGroup {
